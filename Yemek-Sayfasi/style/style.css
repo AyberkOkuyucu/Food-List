@@ -1,0 +1,201 @@
+    h1,
+    h2 {
+        font-family: 'Young Serif', serif;
+        /* Başlıklar için Young Serif */
+    }
+
+    p {
+        font-weight: 400;
+        /* Normal metin */
+    }
+
+    strong {
+        font-weight: 700;
+        /* Kalın metin */
+    }
+
+    /* sayfanın genel yapısı */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #F0E2D8;
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+
+    }
+
+    b {
+        color: #7D4A32;
+    }
+
+    li {
+        color: #7D4A32;
+    }
+
+    /* Resim Ve Başlık Kısmı */
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .div-design {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        max-width: 700px;
+        margin: 0 auto;
+        border-radius: 16px;
+        padding: 50px;
+    }
+
+    #image-id h1 {
+        color: black;
+        font-size: 44px;
+        margin: 20px 0px 20px 0px;
+   
+    }
+
+    #image-id p {
+        margin-bottom: 30px;
+        color: #59514B;
+        font-size: 1rem;
+
+    }
+
+    /* Hazırlık Süresi Kısmı */
+    #preparation {
+        background-color: #FFF1F6;
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 12px;
+        padding:10px;
+    }
+
+    #preparation h2 {
+        margin: 1rem 1rem 0 1rem;
+        color: #7F3A4B;
+
+    }
+
+    #preparation ul {
+        padding-left: 30px
+    }
+
+    #preparation li {
+        margin: 1rem;
+        color: #59514B;
+        font-size: 1rem;
+    }
+
+    /* Malzemeler kısmı */
+    #Ingredients {
+        padding: 20px;
+        border-bottom: 1px #F0E2D8 solid;
+    }
+
+    #Ingredients h2 {
+        color: #7D4A32;
+    }
+
+    #Ingredients li {
+        padding: 10px;
+        color: #59514B;
+        font-size: 1rem;
+    }
+
+    /* Yapılış Kısmı */
+    #Instructions {
+        padding: 20px;
+        border-bottom: 1px #F0E2D8 solid;
+    }
+
+    #Instructions h2 {
+        color: #7D4A32;
+    }
+
+    #Instructions li {
+        padding: 10px;
+        color: #59514B;
+        font-size: 1rem;
+    }
+
+    /* Besin Değerleri Kısmı */
+    #Nutrition {
+        padding: 20px;
+    }
+
+    #Nutrition h2 {
+        color: #7D4A32
+    }
+
+    #Nutrition p {
+        color: #59514B;
+        padding-top: 12px;
+        font-size: 1rem;
+    }
+
+    #Nutrition li {
+        list-style-type: none;
+    }
+
+    span {
+        color: #59514B;
+        font-weight: bold;
+    }
+
+    #divid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+
+    #div1 {
+        margin-right: 250px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nutrition-list {
+        padding: 20px;
+        border-radius: 8px;
+        flex-direction: column;
+
+    }
+
+    .nutrition-item {
+        position: relative;
+        display: flex;
+   justify-content: space-around;
+        padding: 10px 0;
+        border-bottom: 1px solid #F0E2D8;
+
+
+    }
+
+    .nutrition-item:last-child {
+        border-bottom: none;
+    }
+
+    .nutrition-label {
+        position: absolute;
+        font-weight: bold;
+        color: #59514B;
+  top:0;
+  left:0;
+
+    }
+
+    .nutrition-value {
+        font-weight: bold;
+        color: #7D4A32;
+
+    }
