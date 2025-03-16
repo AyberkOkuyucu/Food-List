@@ -1,5 +1,20 @@
-Ödev yönergelerine göre yapılmış bir websitesi.
+README: Basit Omlet Tarifi Sayfası
+Bu proje, basit ve lezzetli bir omlet tarifi sunan bir HTML sayfasıdır. Sayfa, omletin hazırlanışı, malzemeleri ve besin değerleri hakkında bilgi vermektedir.
+
+📂 Dosya Yapısı
+index.html → Ana sayfa
+style/style.css → Sayfanın stil dosyası
+img/ → Görseller ve favicon
+📝 İçerik
+Sayfa aşağıdaki bölümlerden oluşmaktadır:
+
+Başlık ve Açıklama → Omlet hakkında kısa bilgi
+Hazırlık Süresi → Toplam, hazırlık ve pişirme süresi
+Malzemeler → Temel ve opsiyonel malzemeler
+Yapılışı → Adım adım tarifin anlatımı
+Besin Değerleri → Kalori, karbonhidrat, protein ve yağ miktarları
+📌 Kullanım
+Tarifi öğrenmek için sayfayı açın.
+Malzemeleri ve besin değerlerini kontrol edin.
+Tarifin adımlarını takip ederek omleti hazırlayın.
 ![Ekran görüntüsü 2025-03-16 142128](https://github.com/user-attachments/assets/aa1ab5f2-48ec-4b40-a052-eb800caed261)
-![Ekran görüntüsü 2025-03-16 142154](https://github.com/user-attachments/assets/c3ae1e0f-9e61-491f-ba79-e507bebb5e13)
-![Ekran görüntüsü 2025-03-16 142206](https://github.com/user-attachments/assets/3a478a99-08a4-4943-b67a-6c3bfe3bb295)
-![Ekran görüntüsü 2025-03-16 142213](https://github.com/user-attachments/assets/c9045c6e-e854-4fe6-9972-e36a8a1b7cba)
